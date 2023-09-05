@@ -1,4 +1,3 @@
-# Referee-Analysis
 # NBA Referee Neutrality Investigation
 
 [![Blog Article](https://img.shields.io/badge/blog-article-brightgreen?link=https%3A%2F%2Fblakelaw.github.io%2Fprojects%2F1_project%2F)](https://blakelaw.github.io/projects/1_project/)
