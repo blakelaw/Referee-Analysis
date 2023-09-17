@@ -21,8 +21,12 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 ## Usage
 
 `metrics.py' - contains points over expected and elo metrics
+
 `PCA.py` - preprocesses dataset for PCA in R
+
 `NBA_PCA_R` - PCA analysis in R
+
 `PSM.py` - propensity score matching on dataset
+
 `Outputs` - Contains all outputs for visualization and PCA loadings
 
