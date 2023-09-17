@@ -1,7 +1,7 @@
 import nbformat
 
 # Load the notebook
-notebook = nbformat.read('metrics.ipynb', as_version=4)
+notebook = nbformat.read('PSM.ipynb', as_version=4)
 
 # Initialize an empty string to store the code
 code_script = ""
@@ -13,5 +13,5 @@ for cell in notebook.cells:
         code_script += cell.source + "\n\n"
 
 # Save the code to a new .py file
-with open('metrics.py', 'w') as f:
+with open('PSM.py', 'w') as f:
     f.write(code_script)
