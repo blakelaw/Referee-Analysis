@@ -22,7 +22,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 ## Usage
 
-`metrics.py` - contains points over expected and elo metrics
+`metrics.py` - preprocesses dataset and creates points over expected and elo metrics
 
 `PCA.py` - preprocesses dataset for PCA in R
 
