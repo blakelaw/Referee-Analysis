@@ -39,7 +39,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 ## Results
 
-### **Method 1: Points over Expected**
+### Method 1: Points over Expected
 
 
 
@@ -49,7 +49,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
   <span style="font-size: 12px;">Top 10 referees by method 1, from <code>metrics.py</code></span>
 </p
 
-### **Method 2: Elo Score**
+### Method 2: Elo Score
 
 
 
