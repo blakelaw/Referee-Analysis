@@ -32,6 +32,11 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 `Outputs` - Contains all outputs for visualization and PCA loadings
 
+- `Ged_Games.csv`/`WAS.csv` - WAS games officiated by Gediminas Petraitis, identified as the highest scorer on Method 2, and all WAS games
+- `Ayotte_Games.csv`/`NYK.csv` - NYK games officiated by Mark Ayotte, identified as the highest scorer on Method 2, and all NYK games
+- `PSM_Results.csv` - Output of propensity score matching results
+- `PCA_Results.csv` - Each referee with aggregated stats and 14 principal components and their loadings
+
 ## Results
 
 #### **Method 1: Points over Expected**
@@ -41,7 +46,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 <p align="center">
   <img src="https://i.imgur.com/n3HdVg1.png" width="60%">
   <br>
-  <span style="font-size: 12px;">Top 10 referees by metric 1, from <code>metrics.py</code></span>
+  <span style="font-size: 12px;">Top 10 referees by method 1, from <code>metrics.py</code></span>
 </p
 
 #### **Method 2: Elo Score**
@@ -51,7 +56,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 <p align="center">
   <img src="https://i.imgur.com/Wp5WuTQ.png" width="60%">
   <br>
-  <span style="font-size: 12px;">Top 10 referees by metric 2, from <code>metrics.py</code></span>
+  <span style="font-size: 12px;">Top 10 referees by method 2, from <code>metrics.py</code></span>
 </p
 
 #### **Method 3: Principal Component Analysis**
