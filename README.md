@@ -4,10 +4,11 @@
 
 ## Description
 
-This project investigates the neutrality of referees in approximately 64,000 NBA games. This is primarily written in Python, with the PCA completed in R.
+This project investigates the neutrality of referees in approximately 64,000 NBA games. This is primarily written in Python, with principal component analysis completed in R.
 
 ## Features
-  
+
+- **Data preprocessing**: Transformed dataset by performing group operations, including SQL preprocessing, concatenating home and away game data, merging tables, and filtering data to reduce noise
 - **Quantitative Analysis**: Developed four quantitative approaches to evaluate the impact of referees on game metrics and results.
   - **Points over expected**: For a given referee-team combination, the difference in average score when the game was officiated by the referee and the overall average.
   - **Elo score**: Points over expected, but takes the average within the same year rather than the team's overall average. 
@@ -31,4 +32,44 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 `Outputs` - Contains all outputs for visualization and PCA loadings
 
+## Results
 
+#### Method 1: Points over Expected
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/n3HdVg1.png" width="60%">
+  <br>
+  <span style="font-size: 12px;">Top 10 referees by metric 1, from <code>metrics.py</code></span>
+</p
+
+#### Method 2: Elo Score
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/Wp5WuTQ.png" width="60%">
+  <br>
+  <span style="font-size: 12px;">Top 10 referees by metric 2, from <code>metrics.py</code></span>
+</p
+
+#### Method 3: Principal Component Analysis
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/gE6uQh4.png" width="60%">
+  <br>
+  <span style="font-size: 12px;">Referees by principal components from <code>NBA_PCA.R</code> (minimum 50 games officiated)</span>
+</p
+
+#### Method 4: Propensity Score Matching
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/1wCTgdL.png" width="60%">
+  <br>
+  <span style="font-size: 12px;">Referees with lowest p-values in t-test after propensity score matching, from <code>PSA.py</code></span>
+</p
