@@ -44,7 +44,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 
 <p align="center">
-  <img src="https://i.imgur.com/n3HdVg1.png" width="60%">
+  <img src="https://i.imgur.com/n3HdVg1.png">
   <br>
   <span style="font-size: 12px;">Top 10 referees by method 1, from <code>metrics.py</code></span>
 </p
@@ -54,7 +54,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 
 <p align="center">
-  <img src="https://i.imgur.com/Wp5WuTQ.png" width="60%">
+  <img src="https://i.imgur.com/Wp5WuTQ.png">
   <br>
   <span style="font-size: 12px;">Top 10 referees by method 2, from <code>metrics.py</code></span>
 </p
@@ -64,7 +64,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 
 <p align="center">
-  <img src="https://i.imgur.com/gE6uQh4.png" width="60%">
+  <img src="https://i.imgur.com/gE6uQh4.png">
   <br>
   <span style="font-size: 12px;">Referees by principal components from <code>NBA_PCA.R</code> (minimum 50 games officiated)</span>
 </p
@@ -74,7 +74,7 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 
 
 <p align="center">
-  <img src="https://i.imgur.com/dMFkEsF.png" width="60%">
+  <img src="https://i.imgur.com/dMFkEsF.png">
   <br>
   <span style="font-size: 12px;">Referees with lowest p-values in t-test after propensity score matching, from <code>PSA.py</code></span>
 </p
