@@ -119,7 +119,7 @@ effect_size_df['Referee'] = effect_size_df['first_name'] + " " + effect_size_df[
 # Select top 10 rows based on 'p_value'
 top_10_p_value = effect_size_df.nsmallest(10, 'p_value')
 
-# Select and rename the columns as per your requirements
+# Rename columns
 PSM_results = top_10_p_value[['Referee', 'p_value', 't_statistic', 'cohen_d']]
 PSM_results.columns = ['Referee', 'p-value', 't statistic', "cohen's d"]
 PSM_results.to_csv('Outputs/PSM_Results.csv')
