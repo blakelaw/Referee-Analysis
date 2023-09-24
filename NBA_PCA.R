@@ -1,3 +1,5 @@
+library(knitr)
+
 # Load the data
 data_for_pca <- read.csv('/Users/blakelaw/PycharmProjects/RefereeAnalysis/Outputs/PCA.csv', header = TRUE)
 
@@ -10,7 +12,7 @@ pca_result <- prcomp(data_pca_only, scale. = TRUE, center = TRUE)
 # Extract the scores for each principal component
 scores <- pca_result$x
 
-# Append the PC scores to the original dataframe
+# Appeand the PC scores to the original dataframe
 data_with_scores <- cbind(data_for_pca, scores)
 
 
@@ -22,10 +24,15 @@ print(pca_result$rotation)
 
 print(data_with_scores)
 
-#Create table for blog post showing loadings
-rounded_rotation <- round(pca_result$rotation, 3)
+# Exclude the last 3 columns
+rounded_rotation <- rounded_rotation[, -((ncol(rounded_rotation) - 2):ncol(rounded_rotation))]
+
+# Create table
 table_output <- kable(rounded_rotation, format = "html", caption = "PCA Loadings")
-writeLines(table_output, "/Users/blakelaw/Downloads/my_table.html")
+
+# Save to file
+writeLines(table_output, "/Users/blakelaw/Downloads/my_table2.html")
+
 
 
 
