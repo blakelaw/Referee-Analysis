@@ -76,5 +76,5 @@ This project investigates the neutrality of referees in approximately 64,000 NBA
 <p align="center">
   <img src="https://i.imgur.com/dMFkEsF.png">
   <br>
-  <span style="font-size: 12px;">Referees with lowest p-values in t-test after propensity score matching, from <code>PSA.py</code></span>
+  <span style="font-size: 12px;">Referees with lowest p-values in t-test after propensity score matching, from <code>PSM.py</code></span>
 </p>
